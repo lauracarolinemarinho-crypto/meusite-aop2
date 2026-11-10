@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Um espaço de leitura para descobrir como o catolicismo atravessa a história, a arte e as celebrações que moldam culturas.">
+    <meta property="og:title" content="Cultura Católica — fé, história e expressão cultural">
+    <meta property="og:description" content="Conheça o catolicismo por suas marcas na história, na arte e nos modos de celebrar.">
+    <meta property="og:type" content="website">
+    <title>Cultura Católica — fé, história e expressão cultural</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="Cultura Católica — Home" data-testid="link-brand-home">
+          <svg class="brand-mark" viewBox="0 0 32 40" aria-hidden="true"><path d="M13 2h6v13h11v6H19v17h-6V21H2v-6h11z"/></svg>
+          <span><strong>Cultura Católica</strong><small>fé, história &amp; cultura</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navegacao-principal" data-testid="button-menu-mobile">Menu</button>
+        <nav id="navegacao-principal" class="site-nav" aria-label="Navegação principal">
+          <a href="./index.html" aria-current="page" data-testid="link-nav-home">Home</a>
+          <a href="./historia.html" data-testid="link-nav-historia">História</a>
+          <a href="./arte-sacra.html" data-testid="link-nav-arte-sacra">Arte sacra</a>
+          <a href="./celebracoes.html" data-testid="link-nav-celebracoes">Celebrações</a>
+          <a href="./contatos.html" data-testid="link-nav-contatos">Contatos</a>
+        </nav>
+      </div>
+    </header>
+    <main id="conteudo">
+      <section class="hero-home">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Um olhar cultural sobre o catolicismo</p>
+            <h1>A fé também conta <em>histórias.</em></h1>
+            <p>Um convite a conhecer o catolicismo pelas marcas que deixou na história, nas imagens, na arquitetura e nos modos de celebrar.</p>
+            <a class="button-primary" href="./historia.html" data-testid="link-hero-historia">Comece por aqui <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="hero-image">
+            <img src="images/igreja-historica.jpg" alt="Interior de uma igreja histórica brasileira, com talha dourada e luz natural">
+            <figcaption>Patrimônio, memória e vida cotidiana</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="intro-strip">
+        <div class="wrap intro-grid">
+          <h2>Curiosidade é um bom começo.</h2>
+          <p>Este blog apresenta o catolicismo como fenômeno religioso e parte da história cultural. Estudantes e leitores curiosos encontram explicações acessíveis, contexto histórico e caminhos para continuar pesquisando.</p>
+        </div>
+      </section>
+      <section class="section wrap" id="destaques">
+        <div class="section-heading">
+          <div><p class="eyebrow">Trilhas de leitura</p><h2>Três portas de entrada</h2></div>
+          <p>Explore história, arte sacra e celebrações. Cada imagem leva à página correspondente.</p>
+        </div>
+        <div class="topic-grid">
+          <a class="topic-card" href="./historia.html" data-testid="card-topic-historia">
+            <img src="images/igreja-historica.jpg" alt="Interior de igreja histórica com altar trabalhado" loading="lazy">
+            <div class="topic-card-body"><span class="topic-meta">Contexto · 01</span><h3>Uma história em movimento</h3><p>Do Mediterrâneo antigo às muitas histórias do Brasil: acompanhe encontros, mudanças e continuidades.</p><span class="topic-link">Explorar a história →</span></div>
+          </a>
+          <a class="topic-card" href="./arte-sacra.html" data-testid="card-topic-arte-sacra">
+            <img src="images/arte-sacra.jpg" alt="Detalhe de escultura sacra barroca em madeira dourada" loading="lazy">
+            <div class="topic-card-body"><span class="topic-meta">Imagem &amp; espaço · 02</span><h3>O sagrado em formas</h3><p>Leia imagens, igrejas e objetos como testemunhos de técnicas, devoções e sociedades.</p><span class="topic-link">Conhecer a arte sacra →</span></div>
+          </a>
+          <a class="topic-card" href="./celebracoes.html" data-testid="card-topic-celebracoes">
+            <img src="images/festa-liturgica.jpg" alt="Procissão católica noturna em rua de pedra de uma cidade histórica brasileira" loading="lazy">
+            <div class="topic-card-body"><span class="topic-meta">Ritmo &amp; memória · 03</span><h3>Um ano de celebrações</h3><p>Descubra como o calendário litúrgico organiza tempos, ritos e expressões populares.</p><span class="topic-link">Ver as celebrações →</span></div>
+          </a>
+        </div>
+      </section>
+      <section class="quote-band">
+        <div class="wrap quote-inner">
+          <p class="eyebrow">Uma lente, não um púlpito</p>
+          <blockquote>“Compreender uma tradição é também compreender as pessoas e os lugares que a transformaram.”</blockquote>
+          <p>Os temas são tratados com respeito e contexto, sem pressupor que todas as pessoas leitoras compartilhem da mesma fé.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a class="brand brand-footer" href="./index.html"><svg class="brand-mark" viewBox="0 0 32 40" aria-hidden="true"><path d="M13 2h6v13h11v6H19v17h-6V21H2v-6h11z"/></svg><span><strong>Cultura Católica</strong><small>fé, história &amp; cultura</small></span></a>
+        <div class="footer-copy"><p>Autoria: Laura Caroline Alves Marinho</p><p>Projeto educativo independente sobre religião e cultura.</p><nav aria-label="Links do rodapé"><a href="./historia.html">História</a><a href="./arte-sacra.html">Arte sacra</a><a href="./celebracoes.html">Celebrações</a><a href="./contatos.html">Contatos</a></nav></div>
+      </div>
+    </footer>
+  </body>
+</html>
